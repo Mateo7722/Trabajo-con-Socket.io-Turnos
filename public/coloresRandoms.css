@@ -1,0 +1,130 @@
+.turno-numero1{
+    font-family: 'Inter';
+    color: #cdb4db;
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 
+    2px 2px 0 black,   /* Sombra abajo derecha */
+    -2px -2px 0 black, /* Sombra arriba izquierda */
+    -2px 2px 0 black,  /* Sombra abajo izquierda */
+    2px -2px 0 black;  /* Sombra arriba derecha */
+}
+
+.turno-numero2{
+    font-family: 'Inter';
+    color: #ffc09f;
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 
+    2px 2px 0 black,   /* Sombra abajo derecha */
+    -2px -2px 0 black, /* Sombra arriba izquierda */
+    -2px 2px 0 black,  /* Sombra abajo izquierda */
+    2px -2px 0 black;  /* Sombra arriba derecha */
+}
+.turno-numero3{
+    font-family: 'Inter';
+    color: #adf7b6;
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 
+    2px 2px 0 black,   /* Sombra abajo derecha */
+    -2px -2px 0 black, /* Sombra arriba izquierda */
+    -2px 2px 0 black,  /* Sombra abajo izquierda */
+    2px -2px 0 black;  /* Sombra arriba derecha */
+}
+.turno-numero4{
+    font-family: 'Inter';
+    color: #a0ced9;
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 
+    2px 2px 0 black,   /* Sombra abajo derecha */
+    -2px -2px 0 black, /* Sombra arriba izquierda */
+    -2px 2px 0 black,  /* Sombra abajo izquierda */
+    2px -2px 0 black;  /* Sombra arriba derecha */
+}
+.turno-numero5{
+    font-family: 'Inter';
+    color: #fcf5c7;
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 
+    2px 2px 0 black,   /* Sombra abajo derecha */
+    -2px -2px 0 black, /* Sombra arriba izquierda */
+    -2px 2px 0 black,  /* Sombra abajo izquierda */
+    2px -2px 0 black;  /* Sombra arriba derecha */
+}
+.turno-numero-espera1{
+    font-family: 'Inter';
+    color: #ffc09f;
+    font-weight: 900;
+    text-align: center;
+    
+    text-shadow: 
+    2px 2px 0 black,   /* Sombra abajo derecha */
+    -2px -2px 0 black, /* Sombra arriba izquierda */
+    -2px 2px 0 black,  /* Sombra abajo izquierda */
+    2px -2px 0 black;  /* Sombra arriba derecha */
+}
+
+.turno-numero-espera2{
+    font-family: 'Inter';
+    color: #ffee93;
+    font-weight: 900;
+    text-align: center;
+    
+    text-shadow: 
+    2px 2px 0 black,   /* Sombra abajo derecha */
+    -2px -2px 0 black, /* Sombra arriba izquierda */
+    -2px 2px 0 black,  /* Sombra abajo izquierda */
+    2px -2px 0 black;  /* Sombra arriba derecha */
+}
+
+.turno-numero-espera3{
+    font-family: 'Inter';
+    color: #fcf5c7;
+    font-weight: 900;
+    text-align: center;
+    
+    text-shadow: 
+    2px 2px 0 black,   /* Sombra abajo derecha */
+    -2px -2px 0 black, /* Sombra arriba izquierda */
+    -2px 2px 0 black,  /* Sombra abajo izquierda */
+    2px -2px 0 black;  /* Sombra arriba derecha */
+}
+
+.turno-numero-espera4{
+    font-family: 'Inter';
+    color: #a0ced9;
+    font-weight: 900;
+    text-align: center;
+    
+    text-shadow: 
+    2px 2px 0 black,   /* Sombra abajo derecha */
+    -2px -2px 0 black, /* Sombra arriba izquierda */
+    -2px 2px 0 black,  /* Sombra abajo izquierda */
+    2px -2px 0 black;  /* Sombra arriba derecha */
+}
+
+.turno-numero-espera5{
+    font-family: 'Inter';
+    color: #adf7b6;
+    font-weight: 900;
+    text-align: center;
+    
+    text-shadow: 
+    2px 2px 0 black,   /* Sombra abajo derecha */
+    -2px -2px 0 black, /* Sombra arriba izquierda */
+    -2px 2px 0 black,  /* Sombra abajo izquierda */
+    2px -2px 0 black;  /* Sombra arriba derecha */
+}

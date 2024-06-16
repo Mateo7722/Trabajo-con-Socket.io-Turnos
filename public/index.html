@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="coloresRandoms.css">
+    <script src="./socket.io/socket.io.js"></script>
+    <title>Turnos</title>
+</head>
+<body>
+    <button id="siguiente-turno">Siguiente turno</button>
+    <button id="crear-turno">Crear turno</button>
+    <button id="actualizar-puesto">Actualizar puestos</button>
+
+    <div class="turnos-atendidos">
+        <p>Atendidos:</p>
+    </div>
+    
+    <div class="turno-actual">
+        <p>Nuevo Turno</p>
+        <div id="principal">
+            <p class="turno-texto">Turno:</p>
+            <p class="turno-numero">---</p>
+            <p class="puesto">Puesto: </p>
+        </div>
+        <p class="total-atendidos">Total atendidos: 120</p>
+    </div>
+
+    <div class="turnos-espera">
+        <p>Siguientes:</p>
+    </div>
+
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

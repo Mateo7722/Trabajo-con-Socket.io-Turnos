@@ -99,7 +99,6 @@ io.on("connection", (socket) => {
     puestos.forEach((puesto) => {
       puesto.ocupado = false;
       io.sockets.emit("puestos", puestos);
-      console.log(puesto.ocupado);
     });
   });
 });

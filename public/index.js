@@ -9,6 +9,7 @@ const totalAtendidos = document.querySelector(".total-atendidos");
 const botonSiguienteTurno = document.querySelector("#siguiente-turno");
 const botonCrearTurno = document.querySelector("#crear-turno");
 const botonActualizarPuestos = document.querySelector("#actualizar-puesto");
+const audio = document.querySelector("#audio");
 
 let puestoDisponible;
 
@@ -40,7 +41,7 @@ const crearTurnos = (turno, tipoTurno) => {
 
 //Agarro el primer turno del array y lo pongo como el turno actual y los siguientes 3 en espera
 const turnoActual = (turnos) => {
-  turnosEspera.innerHTML = "";
+  turnosEspera.innerHTML = "<p>Siguientes:</p>";
 
   if (!turnos[0]) {
     turnoNumero.textContent = "";
@@ -69,7 +70,7 @@ const asignarPuesto = (puestos) => {
 
 //Mostramos los turnos atendidos
 socket.on("turnosAtendidos", (data) => {
-  turnosAtendidos.innerHTML = "";
+  turnosAtendidos.innerHTML = "<p>Atendidos:</p>";
   data.slice(-3).forEach((turno) => crearTurnos(turno, "atendido"));
 });
 
@@ -89,7 +90,7 @@ const siguienteTurno = (turnos, turnosAtendidos) => {
   if (puestoDisponible) {
     socket.emit("puestoOcupado", puestoDisponible.num);
   }
-
+  audio.play();
   socket.emit("turnoAtendido");
 };
 

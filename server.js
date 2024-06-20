@@ -76,7 +76,7 @@ io.on("connection", (socket) => {
 
   //Aumenta totalesAtendidos
   socket.on("totalAtendidos", () => {
-    totalAtendidos++;
+    totalAtendidos = turnosAtendidos.length;
   });
 
   //Recibimos el puesto ocupado y lo pasamos a true
